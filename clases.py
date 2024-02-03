@@ -12,5 +12,5 @@ alumno2=Alumno("Maria",20,30)
 resultado1 = "Aprobado" if alumno1.nota() else "Reprobado"
 
 resultado2 = "Aprobado" if alumno2.nota() else "Reprobado"
-print(alumno1.Nombre,alumno1.edad,alumno1.Calificacion,resultado1)
-print(alumno2.Nombre,alumno2.edad,alumno2.Calificacion,resultado2)
+print("El alumno:", alumno1.Nombre, "de", alumno1.edad, "años con la nota de", alumno1.Calificacion, "está", resultado1)
+print("El alumno:", alumno2.Nombre, "de", alumno2.edad, "años con la  nota de", alumno2.Calificacion, "está", resultado2)
